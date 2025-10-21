@@ -40,8 +40,3 @@ http://localhost:3000
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
-
-## Admin Girişi
-
-Email: cecccibrahim@gmail.com
-Şifre: alt3563
