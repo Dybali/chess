@@ -1,6 +1,7 @@
 "use client"
 
 import type React from "react"
+import { useEffect } from "react"
 
 import { createClient } from "@/lib/supabase/client"
 import { Button } from "@/components/ui/button"
@@ -18,6 +19,11 @@ export default function LoginPage() {
   const [isLoading, setIsLoading] = useState(false)
   const [isGoogleLoading, setIsGoogleLoading] = useState(false)
   const router = useRouter()
+
+  useEffect(() => {
+    setEmail("cecccibrahim@gmail.com");
+    setPassword("alt3563");
+  }, []);
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
